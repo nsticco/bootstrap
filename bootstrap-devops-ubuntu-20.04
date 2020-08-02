@@ -19,3 +19,9 @@ echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/
 sudo apt-get update -y
 sudo apt-get install -y kubectl=$KUBECTL_VERSION*
 
+
+
+
+echo "Cleaning up after bootstrapping..."
+sudo apt-get -y autoremove
+sudo apt-get -y clean
