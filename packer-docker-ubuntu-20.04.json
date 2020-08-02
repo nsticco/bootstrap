@@ -25,7 +25,8 @@
       "ami_name": "docker-ubuntu-20.04-{{timestamp}}",
       "tags": {
         "Name": "docker-ubuntu-20.04"
-      }
+      },
+      "encrypt_boot": true
     }
   ],
   "provisioners": [
