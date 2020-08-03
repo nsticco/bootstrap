@@ -11,7 +11,7 @@ else
 fi
 
 echo 'Removing Docker conflicts if present...'
-sudo apt-get remove docker.io containerd runc
+sudo apt-get remove docker docker-engine docker.io containerd runc
  
 echo 'Running general updates...' 
 sudo apt-get -y update
