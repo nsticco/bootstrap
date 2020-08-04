@@ -27,7 +27,7 @@ else
 fi
 
 echo "Installing fundamental development tools..."
-sudo apt install -y python3 python3-pip nodejs npm git default-jdk unzip
+sudo apt install -y python3 python3-pip nodejs npm git default-jdk unzip build-essential
 
 echo "Installing AWS CLI v2..."
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
